@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(83, 102, 102);
+}
+
+section{
+    margin: 0;
+}
+
+
+
+.form fieldset legend{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: navy;
+}
+
+.form fieldset form{
+    font-weight: 10px;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.form input form select{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(201, 69, 69);
+    width: calc(50% - 5px);
+}
+
+.form p{
+    margin: 20px;
+}
+
+.form label{
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+
+
+.form label:hover{
+    color: navy;
+}
+
+.input[type="reset"]{
+    color: white;
+    background: navy;
+    border-radius: 10px;
+    border: 1px solid black;
+   
+}
+
+input[type="button"]{
+    padding: 20px;
+    background:navy;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    border:1px solid black ;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+}
+
+ input[type="reset"] {
+    padding: 20px;
+    background:navy;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    border:1px solid black ;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+}
+
+input[type="button"]:hover{
+
+    transform: scale(0.9)rotate(-2deg);
+}
+
+table-con{
+  margin-top: 100px;
+  overflow: auto;
+}
+
+table{
+
+    width: 100px;
+    background-color: white;
+    color: rgb(13, 13, 14);
+}
+
+table tr th{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+table tr:nth-child(odd){
+    background-color:rgb(83, 102, 102); ;
+   justify-content: space-around;
+}
+
+table tr td{
+    color: black;
+    transition: 0.3s ease-in-out;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+table tr td:hover{
+    color: navy;
+}
+
+.section{
+    display: inline;
+}
+
+.section > div{
+
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+.section{
+    display: inline;
+}
+
+
+
+
+
+
+
+
+

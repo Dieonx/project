@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project.css" media="all">
+    <title>Attendence Form </title>
+</head>
+<body>
+<main>
+    <section>
+        <div class="form">
+            <fieldset>
+                <legend>ATTENDENCE FORM</legend>
+                <form class="myform" action="">
+                    <p>
+                        <label for="Name">Student Name:</label>
+                        <br>
+                        <input type="text" name="name" id="name" placeholder="Enter Student's Name" required>
+                    </p>
+                    <p>
+                        <label for="Name">Student Reg No.:</label>
+                        <br>
+                        <input type="text" name="name" id="name" placeholder="Enter Registration Number" required>
+                    </p>
+                    <p>
+                        <label for="fac">Faculty</label>
+                        <br>
+                        <select name="fac" id="fac" required>
+                            <option value="">Select Faculty</option>
+                            <option value="">Natural Applied and Environmental Sciences</option>
+                        </select>
+                    </p>
+
+                    <p>
+                      <label for="dept">department</label>
+                      <br>
+                      <select name="name" id="dept" required>
+                        <option value="">Select Department</option>
+                        <option value="">Computer Science</option>
+                        <option value="">Microbiology</option>
+                        <option value="">Architecture</option>
+                        <option value="">Biochemistry</option>
+                        <option value="">Mathematics</option>
+                        <option value="">Physics</option>
+                      </select>
+                    </p>
+
+                    <p>
+                        <label for="Level">Level</label>
+                        <br>
+                        <select name="value" id="Level" required>
+                          <option>100 LEVEL</option> 
+                          <option>200 LEVEL</option>
+                          <option>300 LEVEL</option> 
+                          <option>400 LEVEL</option> 
+                          <option>500 LEVEL</option>
+                        </select>
+                      </p>
+                        <p>
+                      <label for="date">Date & Time:</label>
+                      <br>
+                      <input type="date" name="date" id="date" required>
+                      <br>
+                      <input type="time" name="time" id="time" required>
+                    </p>
+                    <p>
+                    <label for="reset" name="reset" id="reset" required></label><br>
+                    <input type="reset" name="reset" id="reset" value="RESET" required>
+                    </p>
+                    <p>
+                        <input type="button" onclick="FormData()" value="SUBMIT">
+                    </p>
+                </form>
+            </fieldset>
+        </div>
+    </section>
+
+    <section class="table-com">
+        <table id="tableInfo">
+            <tr>
+                <th>STUDENT NAME</th>
+                <th>LEVEL</th>
+                <th>REG NO</th>
+                <th>FACULTY</th>
+                <th>DEPARTMENT</th>
+                <th>DATE & TIME</th>
+            </tr>
+    </section>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
